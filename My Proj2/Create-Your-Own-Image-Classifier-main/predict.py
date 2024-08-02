@@ -1,11 +1,5 @@
-
-#     Basic usage: python predict.py /path/to/image checkpoint
-#     Options:
-#         Return top KKK most likely classes: python predict.py input checkpoint --top_k 3
-#         Use a mapping of categories to real names: python predict.py input checkpoint --category_names cat_to_name.json
-#         Use GPU for inference: python predict.py input checkpoint --gpu
-
-# sample bash cmd: python predict.py './flowers/test/42/image_05696.jpg' '../saved_models/checkpoint.pth' 'cat_to_name.json'
+# Heba Rouk 
+#2/8/2024
 
 import argparse
 import torch
@@ -152,3 +146,4 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     print_predictions(args)
+    ###################################################
