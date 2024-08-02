@@ -1,3 +1,7 @@
+# Heba Rouk
+# 2/8/2024
+
+
 import signal
 
 from contextlib import contextmanager
@@ -52,3 +56,4 @@ def keep_awake(iterable, delay=DELAY, interval=INTERVAL):
         # do iteration with lots of work here
     """
     with active_session(delay, interval): yield from iterable
+    ############################################
